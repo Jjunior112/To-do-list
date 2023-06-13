@@ -48,9 +48,6 @@ function Main() {
         }).catch((err) => console.log(err))
 
     }
-
-  
-
     function remove(id) {
 
         fetch(`http://localhost:5000/tasks/${id}`, {
@@ -90,8 +87,6 @@ function Main() {
                 ))
 
             )}
-
-
             <form onSubmit={AddTask} className={styles.form}>
                 <input type="text" placeholder="Adicionar uma tarefa" value={task} onChange={(e)=>setTask(e.target.value)} />
             </form>

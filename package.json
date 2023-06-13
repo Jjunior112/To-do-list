@@ -1,5 +1,4 @@
 {
-  "homepage":"https://jjunior112.github.io/To-do-list",
   "name": "to-do-list",
   "private": true,
   "version": "0.0.0",
@@ -9,10 +8,7 @@
     "backend": "json-server --watch db.json --port 5000",
     "build": "vite build",
     "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview",
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d dist"
-
+    "preview": "vite preview"
   },
   "dependencies": {
     "json-server": "^0.17.3",
