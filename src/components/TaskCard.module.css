@@ -1,0 +1,33 @@
+
+.card{
+    display: flex;
+    background-color: #fff;
+    background-color: #000000a8;
+    color: #fff;
+    padding: 1em;
+    border-radius:10px ;
+    border: none;
+    opacity: 0.9;
+    margin: 1em;
+    justify-content: space-between;
+
+}
+
+.card label{
+    padding-left: 1em;
+    font-size: large;
+}
+
+.card input:checked ~ label{
+    text-decoration: line-through;
+    color: #616161;
+    
+}
+.card svg{
+    font-size: 1em;
+    padding-left: 1em;
+}
+.card svg:hover{
+    color: red;
+    cursor: pointer;
+}

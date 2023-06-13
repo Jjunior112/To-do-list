@@ -1,0 +1,21 @@
+.loading {
+  height: 4px;
+  background-color: #ccc;
+  animation: loading 2s infinite linear;
+  margin: 0 auto;
+  margin-bottom: 2em;
+}
+
+@keyframes loading {
+  0% {
+    transform: scaleX(0);
+  }
+
+  50% {
+    transform: scaleX(1);
+  }
+
+  100% {
+    transform: scaleX(0);
+  }
+}

@@ -1,0 +1,53 @@
+.main{
+    margin: 0 auto;
+    width: 80%;
+    height: 22.5em;
+    overflow-y: scroll;
+}
+.message{
+    width: 15em;
+    background-color: #000000a8;
+    border-radius:10px;
+    padding: 2em;
+    opacity: 0.7;
+    margin: 0 auto;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.message svg{
+    margin: 0 auto;
+    font-size: 3em;
+
+}
+.message h2{
+    margin-bottom:.5em ;
+}
+.message p{
+    margin-top: 0;
+}
+
+.form input{
+    width: 80%;
+    margin: 0 auto;
+    position: absolute;
+    bottom: 3em;
+    background-color: #000000a8;
+    color: #fff;
+    padding: 1em;
+    border-radius:10px ;
+    border: none;
+    opacity: 0.9;
+
+}
+.main input:hover{
+    opacity: 1;
+}
+
+::placeholder{
+    color: #fff;
+}
+::-webkit-scrollbar{
+    display: none;
+}
